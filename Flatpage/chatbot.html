@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <script>
+            know = {
+                "hello" : "hi",
+                "how are you?" : "good",
+				"Is there any contact  of Hindternational?":" Please Contact- +917435078817",
+				"who has developed you?":" International Students of MEFGI",
+				"can you give me a mail address?":" contact@hindternational.com",
+				"who is the country representative of Afganistan ?": " Qadam Ali ",
+				"Can I have his contact":" 014854566656",
+				"who is the country representative of Bangladesh?": "Sohag",
+				"Can I have sohag's contact":" 014854566656",
+                "thank you":"Welcome",
+				
+                "ok" : ":)"
+             };
+            function talk() {
+                var user = document.getElementById("userBox").value;
+                document.getElementById("userBox").value = "";
+                document.getElementById("chatLog").innerHTML += user+"<br>";
+                if (user in know) {
+                    document.getElementById("chatLog").innerHTML += know[user]+"<br>";
+                } else {
+                    document.getElementById("chatLog").innerHTML += "I don't understand...<br>";
+					alert("Would you plz try this question -- 1.hello  2.how are you 3.what is your name? 4.who has developed you? 5.can you give me his address 6.any team member? 7.thank you ");
+				    
+                }
+            } 
+        </script>
+    </head>
+    <body>   
+	        <h4> You may ask me below questions<h4>
+	        <p> <br> 1.hello <br>2.how are you?<br>3.Is there any contact  of Hindternational?<br>4.who has developed you?<br> 5.can you give me a mail address?<br>6.who is the country representative of Afganistan? <br>7.Can I have his contact <br>8.who is the country representative of Bangladesh? <br>8.Can I have sohag's contact</p></p>
+	
+	
+        <h2 id="chatLog" style="color:blue;position:relative;right:-600px;size:50px;">- - Virtual MChat - -<br></h2>
+        <input id="userBox" placeholder="Type here" type="text" style="color:blue; position:relative;right:-600px;"onkeydown="if (event.keyCode == 13) {talk()}">
+    </body>
+</html>
