@@ -1,18 +1,25 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      &copy; All Rights Reserved - 2020.
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+      Discover You.
     </div>
-  </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2020 <a href="#">Hindternational</a>.</strong> All rights reserved.
+  </footer>
 </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js" ></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<!-- ./wrapper -->
+
+<!-- REQUIRED JS SCRIPTS -->
+
+<!-- jQuery 3 -->
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/adminlte.min.js"></script>
 <?php
-
 require_once("dbclose.php");
-
 ?>
+</body>
+</html>
