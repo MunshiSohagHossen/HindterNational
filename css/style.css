@@ -1,0 +1,26 @@
+.mr-top-20{
+	margin-top: 20px;
+}
+
+.img-slider{
+	width:60px;
+	height:60px;
+	background-size:cover;
+	background-position:center center;
+	border: 2px solid #008d4c;
+}
+
+.eventImage{
+	width:100%;
+	border: 2px solid #ddd;
+}
+
+.image-list .event-image{
+	width:120px;
+	height:120px;
+    margin-right:10px;
+	background-size:cover;
+	background-position:center center;
+	border: 2px solid #008d4c;
+	display:inline-block;
+}
